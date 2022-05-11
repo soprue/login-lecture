@@ -30,7 +30,7 @@ function register() {
   })
   .then((res) => {
     if(res.success) {
-      location.href = '/';
+      location.href = '/login';
     } else {
       alert(res.msg);
     }
